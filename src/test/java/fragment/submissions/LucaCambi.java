@@ -153,7 +153,7 @@ public class LucaCambi {
 				 * last index
 				 */
 
-				if (!areFragments && position == fragmentsSize)
+				if (!areFragments && position == fragmentsSize - 1)
 					return Errors.ERR_INVALID_REASSEMBLE + input;
 
 				if (!areFragments) {
